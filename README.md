@@ -38,7 +38,7 @@ After (Plugins → JSON String Converter → JSON string -> JSON (formatted), or
 
 ## Install
 1. Download `JsonStringConverter_v…_x64.zip` (64-bit Notepad++, the usual one) or `…_x86.zip` (32-bit)
-   from the [Releases page](https://github.com/meysam-mahdavirad/jsonstringconverter/releases/latest).
+   from the [Releases page](https://github.com/meysam-mahdavirad/JsonStringConverter/releases/latest).
 2. Close Notepad++.
 3. Create the folder `C:\Program Files\Notepad++\plugins\JsonStringConverter\` and extract
    `JsonStringConverter.dll` into it.

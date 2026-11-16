@@ -1,9 +1,9 @@
 # Publishing to Notepad++ Plugins Admin
 
-Entries below are filled in for github.com/meysam-mahdavirad/jsonstringconverter.
+Entries below are filled in for github.com/meysam-mahdavirad/JsonStringConverter.
 
 ## 1. Put the source on GitHub
-Done: https://github.com/meysam-mahdavirad/jsonstringconverter (MIT license).
+Done: https://github.com/meysam-mahdavirad/JsonStringConverter (MIT license).
 
 ## 2. Create a release
 Releases → Draft a new release → tag `v1.0.0.0` → attach both files from `release/`:
@@ -24,17 +24,17 @@ Fork https://github.com/notepad-plus-plus/nppPluginList and add one entry to eac
 	"version": "1.0.0.0",
 	"npp-compatible-versions": "[8.0,]",
 	"id": "92229735a5efdb06f736bde3921b0a709c065b55955e0b58905811907f2cf266",
-	"repository": "https://github.com/meysam-mahdavirad/jsonstringconverter/releases/download/v1.0.0.0/JsonStringConverter_v1.0.0.0_x64.zip",
+	"repository": "https://github.com/meysam-mahdavirad/JsonStringConverter/releases/download/v1.0.0.0/JsonStringConverter_v1.0.0.0_x64.zip",
 	"description": "Converts an escaped JSON string (e.g. \"{\\\"a\\\":1}\") into formatted JSON. Handles strings with or without surrounding quotes and double-escaped strings. Also pretty-prints, minifies and escapes JSON. Works on the selection or the whole document. Shortcut: Ctrl+Alt+Shift+J.",
 	"author": "Meysam Mahdavirad",
-	"homepage": "https://github.com/meysam-mahdavirad/jsonstringconverter"
+	"homepage": "https://github.com/meysam-mahdavirad/JsonStringConverter"
 },
 ```
 
 `src/pl.x86.json`: the same, but with
 ```json
 	"id": "60c212b7bd95900bc95fb645f94afb2d2944a1b8a9c29afd5cc21b87f166ae30",
-	"repository": "https://github.com/meysam-mahdavirad/jsonstringconverter/releases/download/v1.0.0.0/JsonStringConverter_v1.0.0.0_x86.zip",
+	"repository": "https://github.com/meysam-mahdavirad/JsonStringConverter/releases/download/v1.0.0.0/JsonStringConverter_v1.0.0.0_x86.zip",
 ```
 
 PR title: `Add JSON String Converter 1.0.0.0`. Their CI downloads the zips and checks the hash,
